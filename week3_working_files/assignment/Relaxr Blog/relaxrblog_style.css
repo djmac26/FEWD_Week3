@@ -1,0 +1,45 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.625em;
+}
+
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+.header-navigation {
+  width: 100%;
+  height: 100px;
+  background-color: #033048;
+  display: inline-block;
+}
+
+.logo-box {
+  background-color: black;
+  width: 30%;
+  margin: 0px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+.nav-box {
+  background-color: blue;
+  width: 60%;
+  margin: 0px;
+  display: inline-block;
+}
+
+a {
+  color: #f9e42e;
+  line-height: 100px;
+  font-size: 2.4em;
+  font-weight: 300;
+}
