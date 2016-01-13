@@ -60,6 +60,14 @@ h2 {
   padding-left: 30px;
 }
 
+.nav-button:hover {
+  color: #faf4be;
+}
+
+.nav-button:active {
+  color: #d9c407;
+}
+
 .container {
   width: 1024px;
   margin: auto;
