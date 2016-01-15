@@ -1,0 +1,139 @@
+html {
+  font-size: 0.625em;
+}
+
+body {
+  position: relative;
+  background-color: #3d3c3c;
+}
+
+header {
+  background-color: black;
+  height: 135px;
+}
+
+.container {
+  width: 1024px;
+  display: block;
+  margin: auto;
+}
+
+.logo {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 3em;
+  color: yellow;
+  padding: 20px 0 20px 30px;
+  margin: 0;
+}
+
+nav {
+  text-align: right;
+  margin-right: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.caps-button {
+  background-color: black;
+  color: #ffffff;
+  font-size: 2.4em;
+  font-weight: 600;
+  font-stretch: extra-condensed;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.nav-button {
+  color: #ffffff;
+  font-size: 2.2em;
+  font-weight: 400;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+hr {
+  background-color: yellow;
+  height: 2.5px;
+  margin: 0;
+  border: 0;
+}
+
+blockquote{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 2.8em;
+  color: black;
+  text-align: center;
+  background-color: #b6b6b9;
+  margin: 0;
+  padding: 20px;
+}
+
+del {
+  color: #8a8a8e;
+}
+
+span {
+  border-bottom: 2px solid yellow;
+}
+
+article {
+  background: url(images/coworking.jpg) no-repeat top center / cover #b6b6b9;
+  width: 100%;
+  height: 610px;
+  margin: 0;
+  box-shadow: inset 0 0 5px #2a2929;
+}
+
+.myButton {
+  width: 200px;
+  height: 20px;
+	background-color: yellow;
+	border-radius:5px;
+	color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2.4em;
+	font-weight: 600;
+  font-stretch: extra-condensed;
+	padding:16px 30px;
+	text-decoration:none;
+  text-align: center;
+  display: block;
+  margin: auto;
+  opacity: 100;
+}
+.myButton:hover {
+	background-color:#f2d709;
+}
+.myButton:active {
+	position:absolute;
+}
+
+aside {
+  width: 350px;
+  height: 480px;
+  background-color: white;
+  opacity: 0.8;
+  float: right;
+  margin: 25px 25px 25px 0;
+  box-shadow: 0 0 5px #2e2d2d;
+}
+
+.aside-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 2.8em;
+  color: black;
+  padding: 40px 0 15px 30px;
+  margin: 0;
+}
+
+.description {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 2.3em;
+  color: black;
+  padding: 0 30px 20px 30px;
+  margin: 0;
+}
