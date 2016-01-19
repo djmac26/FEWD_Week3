@@ -9,7 +9,7 @@ body {
 
 .header-bg {
   width: 100%;
-  background-color: #033048;
+  background: url(images/relaxr_header.jpg) no-repeat top center / cover #033048;
 }
 
 .header-navigation {
@@ -18,7 +18,6 @@ body {
   align-content: center;
   position: relative;
   height: 120px;
-  background-color: #033048;
   display: flex;
   flex-flow: row;
 }
@@ -39,12 +38,15 @@ body {
 
 h1 {
   color: white;
-  line-height: 120px;
   font-size: 4em;
   font-weight: 800;
 }
 
-h2 {
+.blog-logo {
+  line-height: 120px;
+}
+
+.post-title {
   margin: 50px 20px 20px 0px;
   color: #033048;
   font-size: 4em;
@@ -61,7 +63,7 @@ h2 {
 }
 
 .nav-button:hover {
-  color: #faf4be;
+  color: #ffffff;
 }
 
 .nav-button:active {
@@ -73,7 +75,7 @@ h2 {
   margin: auto;
 }
 
-article {
+.blog-content {
   display: inline-block;
   vertical-align: top;
   background-color: #f0efef;
@@ -97,7 +99,7 @@ article {
   color: #606161
 }
 
-h3 {
+.read-btn {
   text-align: right;
   padding: 30px 0 30px 0;
   font-size: 2.4em;
@@ -109,13 +111,17 @@ hr {
   color: #033048;
 }
 
+.line-bottom {
+  color: #033048;
+  margin-bottom: 40px;
+}
+
 aside {
   display: inline-block;
   vertical-align: top;
   background-color: #f0efef;
   margin-left: 20px;
   width: 240px;
-  height: 1570px;
 }
 
 .side-title {
@@ -125,7 +131,7 @@ aside {
   color: #033048;
 }
 
-li {
+.side-list {
   font-size: 2.4em;
   font-weight: 300;
   color: #033048;
@@ -147,8 +153,107 @@ h5 {
   padding: 5px 0 50px 0;
 }
 
+/*Landing page*/
+
+.landing-logo {
+  padding: 50px 0px 0px 50px;
+}
+
+.benefit-title {
+  color: #033048;
+  padding: 50px 0 20px 30px;
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.author {
+  color: white;
+  font-size: 3em;
+  font-weight: 600;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.benefits-list {
+  color: #606161;
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 30px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  list-style-type: disc;
+}
+
+blockquote {
+  color: white;
+  font-size: 3em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 35px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.myButton {
+  width: 90px;
+  height: 16px;
+	background-color:#f9e42e;
+	border-radius:5px;
+	color:#000000;
+	font-size: 1.5em;
+	font-weight:800;
+	padding:16px 30px;
+	text-decoration:none;
+  text-align: center;
+  display: block;
+  margin: 50px auto 200px auto;
+}
+.myButton:hover {
+	background-color:#f2d709;
+}
+.myButton:active {
+	position:relative;
+}
+
+.relaxr-bg {
+  height: 700px;
+  background: url(images/relaxr_header.jpg) no-repeat top center / cover #033048;
+  position: relative;
+}
+
+.overlay-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.simple-centered-text {
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  font-weight: 600;
+  padding-top: 200px;
+  margin: 0 50px 0 50px;
+}
+
+.box_benefits {
+  margin: 0 30px 0 35px;
+}
+
+.benefits {
+  color: #606161;
+  padding: 0 0 20px 30px;
+  font-size: 2.4em;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.testimonial-bg {
+  height: 394px;
+  background: url(images/testimonial_bg.jpg) no-repeat top center / cover #033048;
+  position: relative;
+}
+
 .yellow_bg {
-  margin-top: 50px;
   width: 100%;
   height:48px;
   background-color: #f9e42e;
